@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f69a98</color>
+    <color name="colorPrimaryDark">#f34468</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="biz_audio_progress_bg">#00b2ff</color>
+    <color name="biz_audio_progress_first">#ffffff</color>
+    <color name="biz_audio_progress_second">#6b6666</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <!--背景色-->
+    <color name="backcolor">#f8f8f8</color>
+    <!--笨土豆基础绿-->
+    <color name="color_selected">#f34468</color>
+    <color name="color_select">#f69a98</color>
+
+    <color name="black_base">#333333</color>
+    <color name="gray_six">#666666</color>
+    <color name="gray_five">#959595</color>
+    <color name="gray_base">#999999</color>
+    <color name="gray_black">#ffe1e1e1</color>
+    <color name="gray_text8">#989898</color>
+    <color name="gray_href">#6e989898</color>
+    <color name="gray_center_href">#28989898</color>
+    <color name="gray_all_href">#00989898</color>
+    <color name="white_all_href">#32ffffff</color>
+    <color name="white_href">#46ffffff</color>
+    <color name="white_href_66">#66ffffff</color>
+    <color name="transparent">#00000000</color>
+</resources>

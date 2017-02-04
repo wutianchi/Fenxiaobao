@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/color_selected"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/title_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="3dip"
+            android:paddingLeft="9dip"
+            android:background="@color/color_selected"
+            android:drawableLeft="@drawable/back"
+            android:text=""/>
+        <TextView android:text="设置"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/llt_clear_size"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView android:text="清除缓存"
+            android:textSize="16sp"
+            android:textColor="@color/black_base"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_clear_size"
+            android:text="--"
+            android:textSize="16sp"
+            android:textColor="@color/black_base"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_out_tudou"
+        android:text="退出账号"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/gray_base"
+        android:background="@drawable/bg_btn_exit"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>

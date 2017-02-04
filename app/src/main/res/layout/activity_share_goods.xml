@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/color_selected"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/title_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="3dip"
+            android:paddingLeft="9dip"
+            android:background="@color/color_selected"
+            android:drawableLeft="@drawable/back"
+            android:text=""/>
+        <TextView android:text="物料下载"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_goods_content"
+                android:text="--"
+                android:textSize="14sp"
+                android:textColor="@color/black_base"
+                android:padding="10dp"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.bentudou.fenxiaobao.view.MyGridView
+                android:id="@+id/mgv_img"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none"
+                android:horizontalSpacing="5px"
+                android:verticalSpacing="5px"
+                android:listSelector="@color/white"
+                android:background="@color/backcolor"
+                android:numColumns="3"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:id="@+id/tv_share"
+        android:text="转发售卖"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:background="@color/color_selected"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+</LinearLayout>

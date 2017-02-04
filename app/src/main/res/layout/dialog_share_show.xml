@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/llt_marth_size"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content">
+        <LinearLayout 
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:background="@color/gray_base"
+                android:layout_width="35dp"
+                android:layout_height="1dp" />
+            <TextView
+                android:text="发送到"
+                android:textColor="@color/black_base"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:background="@color/gray_base"
+                android:layout_width="35dp"
+                android:layout_height="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="105dp">
+            <LinearLayout
+                android:id="@+id/llt_share_dialog_qq"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="100dp">
+                <ImageView android:src="@drawable/fenixang_qq"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView android:text="QQ"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/black_base"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llt_share_dialog_weixin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="100dp">
+                <ImageView android:src="@drawable/fenixang_weixin"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView android:text="微信"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/black_base"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llt_share_dialog_pengyouquan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="100dp">
+                <ImageView android:src="@drawable/fenxiang_pengyouquan"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView android:text="朋友圈"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/black_base"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llt_share_dialog_weibo"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="100dp">
+                <ImageView android:src="@drawable/fenxiang_weibo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <TextView android:text="微博"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/black_base"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:background="@color/backcolor"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/llt_share_dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:text="取消"
+                android:textSize="16sp"
+                android:textColor="@color/black_base"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+   
+</LinearLayout>

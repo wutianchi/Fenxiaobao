@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/backcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView android:id="@+id/iv_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cbx_cart_cang_all_select"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:drawableTop="@drawable/btn_cart_select_cheakbox"
+            android:checked="false"
+            android:button="@null"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+    </RelativeLayout>
+
+</LinearLayout>
